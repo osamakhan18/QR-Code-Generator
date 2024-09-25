@@ -1,0 +1,73 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    /* background-color: rgb(3, 41, 75); */
+    background-color: rgb(8, 47, 63);
+}
+
+.main{
+    width: 50%;
+    height: auto;
+    background-color: rgb(3, 41, 75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 5%;
+    /* border: 2px solid white; */
+    gap: 20px;
+    box-shadow: 1px 1px 6px 4px rgb(0, 0, 0);
+  
+    
+}
+
+.main h1{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: white;
+    margin-bottom: 70px;
+
+
+}
+#input_text{
+    width: 50%;
+    height: auto;
+    outline: none;
+   padding: 1.2rem 2rem;
+   text-align: center;
+   font-size: x-large;
+   border-radius: 10px;
+   background-color: rgb(4, 4, 75);
+   color: white;
+   box-shadow: 2px 2px 2px white;
+   margin-bottom: 20px;
+
+}
+
+#input_text::placeholder {
+    color:rgb(213, 243, 243,0.8); /* Change this to your desired color */
+      /* Ensures full opacity, as some browsers apply reduced opacity by default */
+}
+
+#btn{
+    width: 30%;
+    padding:1rem 1rem ;
+    background-color: rgb(3, 20, 77);
+    color: white;
+    border-radius: 20px;
+    font-size: x-large;
+    font-weight: 600;
+    box-shadow: 4px 4px 5px black;
+    margin-bottom: 20px;
+
+}
+
+#image{
+    width: auto;
+    height: auto;
+    box-shadow: 5px 5px 2px black;
+    
+    
+}
